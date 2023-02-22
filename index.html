@@ -8,6 +8,42 @@
     <title>Momentum</title>
 </head>
 <body>
+    <div class="content">
+        <header class="horizon-bottom">
+            <h1 id="greeting"></h1>
+        </header>
+        <div class="content-main">
+            <aside class="border-right">
+                <section id="weather">
+                    <h3>Today's weather</h3>
+                    <span id="weather-weather"></span>
+                    <span id="weather-region"></span>
+                </section>
+            </aside>
+            <main>
+                <form id="todo-form"  action="">
+                    <input type="text" placeholder="Write a To do and Press Enter" required>
+                </form>
+                <ul id="todo-list"></ul>    
+        
+            </main>
+            <aside class="border-left">
+                <time>
+                    <h2 id="clock">00:00</h2>
+                </time>
+                <section id="quote">
+                    <span></span>
+                    <br/>
+                    <span></span>        
+                </section>
+            </aside>
+        
+        </div>
+        <footer class="horizon-top">
+            <span>github.com/coral272</span>
+        </footer>
+    </div>
+
     <form class="hidden" id="login-form">
         <input required
                 maxlength="15" 
@@ -15,20 +51,7 @@
                 placeholder="What is  your name?">
         <button>Log in</button>  
     </form>
-    <h2 id="clock">00:00</h2>
-    <h1 class="hidden" id="greeting"></h1>
-    <form id="todo-form"  action="">
-        <input type="text" placeholder="Write a To do and Press Enter" required>
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-        <span></span>
-        <span></span>
-    </div>
-    <section class="weather">
-        <span></span>
-        <span></span>
-    </section>
+    
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>

@@ -14,6 +14,6 @@ const bgImage = document.createElement("img");
 bgImage.src = `img/${chosenImage}`;
 
 //document.body.appendChild(bgImage);
-document.body.style.backgroundImage = `url(img/${chosenImage})`;
+//document.body.style.backgroundImage = `url(img/${chosenImage})`;
 // document.body.style.background = "linear-gradient(0.25turn, #e66465, #9198e5)";
 
